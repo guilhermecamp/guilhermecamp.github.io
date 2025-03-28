@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    text-align: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 315px;
+    border-radius: 38px;
+    height: 320px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.cards h3 {
+    padding: 12px;
+    font-size: 20px;
+    font-family: "Fjord One", serif;
+}
+
+.cards p {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.avaliacoes {
+    background-color: #A0522D;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    color: aliceblue;
+    height: 950px;
+    width: 1200px;
+}
+
+.cards:hover {
+    background-color: #F5F5DC;
+    margin-top: -5px;
+    color: black;
+    transition: 0.3s;
+}
+
+.avaliacoes img {
+    padding: 5px;
+}
+
+.cards:hover img {
+    filter: invert(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.imagem {
+    border-radius: 100px;
+}
+
+.chamada__titulo {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Fjord One", serif;
+}
+
+.chamada__subtitulo {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
