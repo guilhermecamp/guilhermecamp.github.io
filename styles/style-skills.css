@@ -1,6 +1,7 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     padding: 30px 90px;
     text-align: center;
     margin-bottom: 100px;
@@ -14,8 +15,10 @@
     border-radius: 38px;
     height: 320px;
     transition: 0.3s;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     position: relative;
+    flex: 1 1 250px;
+    max-width: 300px;
 }
 
 .cards h3 {
